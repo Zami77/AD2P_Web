@@ -1,3 +1,4 @@
+import AD2P from './AD2P';
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
          AD-2P
        </h1>
       </header>
+      <AD2P />
     </div>
   );
 }
