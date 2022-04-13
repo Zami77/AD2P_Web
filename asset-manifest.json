@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AD2P_Web/static/css/main.073c9b0a.css",
-    "main.js": "/AD2P_Web/static/js/main.4129e113.js",
+    "main.css": "/AD2P_Web/static/css/main.4f0df080.css",
+    "main.js": "/AD2P_Web/static/js/main.41b66b3f.js",
     "static/js/787.7b675f18.chunk.js": "/AD2P_Web/static/js/787.7b675f18.chunk.js",
     "index.html": "/AD2P_Web/index.html",
-    "main.073c9b0a.css.map": "/AD2P_Web/static/css/main.073c9b0a.css.map",
-    "main.4129e113.js.map": "/AD2P_Web/static/js/main.4129e113.js.map",
+    "main.4f0df080.css.map": "/AD2P_Web/static/css/main.4f0df080.css.map",
+    "main.41b66b3f.js.map": "/AD2P_Web/static/js/main.41b66b3f.js.map",
     "787.7b675f18.chunk.js.map": "/AD2P_Web/static/js/787.7b675f18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.4129e113.js"
+    "static/css/main.4f0df080.css",
+    "static/js/main.41b66b3f.js"
   ]
 }
