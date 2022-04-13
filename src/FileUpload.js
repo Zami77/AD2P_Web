@@ -4,6 +4,7 @@ import { AD2P_BASE_URL, AD2P_SCAN_FILE } from './Constants.js'
 
 function FileUpload() {
     const [file, setFile] = useState();
+    const [scanOutput, setScanOutput] = useState();
 
     function handleChange(event) {
         setFile(event.target.files[0]);
@@ -23,20 +24,23 @@ function FileUpload() {
 
         axios.post(endpoint, formData, config).then((response) => {
             console.log(response.data);
+            setScanOutput(response.data);
         }).catch(function(error) {
             console.log("ad2p scan file error:", error);
         });
     }
 
-    return (
-        <div className='FileUpload'>
+    return {
+        scanOutput,
+        fileUploadRender:(
+        <div className='FileUpload' >
             <form onSubmit={handleSubmit}>
                 <h1>AD-2P Scan File Upload</h1>
                 <input type="file" onChange={handleChange} />
                 <button type="submit">Scan</button>
             </form>
         </div>
-    );
+    )};
 }
 
-export default FileUpload
+export default FileUpload;

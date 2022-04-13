@@ -1,0 +1,8 @@
+.ScanOutput {
+    display: block;
+    padding: 10px 30px;
+    margin: 0;
+    justify-content: center;
+    text-align: left;
+    color: greenyellow;
+}
