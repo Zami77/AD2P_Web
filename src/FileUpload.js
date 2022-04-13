@@ -23,7 +23,9 @@ function FileUpload() {
 
         axios.post(endpoint, formData, config).then((response) => {
             console.log(response.data);
-        })
+        }).catch(function(error) {
+            console.log("ad2p scan file error:", error);
+        });
     }
 
     return (
@@ -31,7 +33,7 @@ function FileUpload() {
             <form onSubmit={handleSubmit}>
                 <h1>AD-2P Scan File Upload</h1>
                 <input type="file" onChange={handleChange} />
-                <button type="submit">Upload</button>
+                <button type="submit">Scan</button>
             </form>
         </div>
     );
